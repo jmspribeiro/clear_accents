@@ -3,6 +3,7 @@
 ## ./src/generate_example_tree.sh
 This script generates an example tree on the _"workspace"_ folder
 
+*Example:*
 * André_Almeida
   * test_1
     * one.txt
@@ -30,6 +31,7 @@ The tree should be exactly the same as inside _"workspace"_ until the last folde
 
 All path and symbolik link should be accent free. 
 
+*Example:*
 * Andre_Almeida
   * test_1 -> ../André_Almeida/test_1
   * test_2 -> ../André_Almeida/test_2
