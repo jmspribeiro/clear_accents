@@ -3,7 +3,7 @@
 ## ./src/generate_example_tree.sh
 This script generates an example tree on the _"workspace"_ folder
 
-"""
+'''
 .
 ├── André_Almeida
 │   ├── test_1
@@ -24,7 +24,7 @@ This script generates an example tree on the _"workspace"_ folder
     │   └── one.txt
     └── test_2
         └── two.txt
-"""
+'''
 
 ## ./src/clear_accents.sh
 This script generates a special tree in _"no_accent_folder"_ inside _"workspace"_.
@@ -33,7 +33,7 @@ The tree should be exactly the same as inside _"workspace"_ until the last folde
 
 All path and symbolik link should be accent free. 
 
-"""
+'''
 .
 ├── Andre_Almeida
 │   ├── test_1 -> /home/jorge/Pessoal/workspace/clear_accents/src/workspace/André_Almeida/test_1
@@ -46,4 +46,4 @@ All path and symbolik link should be accent free.
 └── Ruben_Jose
     ├── test_1 -> /home/jorge/Pessoal/workspace/clear_accents/src/workspace/Ruben_José/test_1
     └── test_2 -> /home/jorge/Pessoal/workspace/clear_accents/src/workspace/Ruben_José/test_2
-"""
+'''
